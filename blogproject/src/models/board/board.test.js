@@ -1,8 +1,6 @@
-import { render, screen } from '@testing-library/react';
-import Board from './board';
-
+import Board from './Board';
 describe('content', () => {
-  const board = Board;
+  const board = Board();
   const content = {
     id: 1,
     head: '알라리깡숑',
