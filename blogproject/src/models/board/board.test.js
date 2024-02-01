@@ -1,6 +1,6 @@
 import Board from './Board';
 describe('content', () => {
-  const board = Board();
+  const board = new Board();
   const content = {
     id: 1,
     head: '알라리깡숑',
